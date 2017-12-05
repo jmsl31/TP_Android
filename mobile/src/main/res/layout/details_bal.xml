@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+
+    xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+    android:layout_width ="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="@dimen/card_corner_radius"
+    card_view:cardElevation="@dimen/card_elevation"
+    card_view:contentPadding="@dimen/card_elevation"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Titre"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/Lieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lieu"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/association"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Association" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date" />
+
+    <TextView
+        android:id="@+id/heuredebut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="heuredebut" />
+
+    <TextView
+        android:id="@+id/heurefin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="heurefin" />
+
+    <TextView
+        android:id="@+id/adresse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adresse1" />
+
+    <TextView
+        android:id="@+id/adresse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adresse2" />
+
+    <TextView
+        android:id="@+id/villeCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="villeCP" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="description" />
+
+    <TextView
+        android:id="@+id/dj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dj" />
+
+    <TextView
+        android:id="@+id/orchestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="orchestre" />
+
+    <TextView
+        android:id="@+id/PAF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAF1" />
+
+    <TextView
+        android:id="@+id/PAF2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAF2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Acces Site" />
+
+        <Button
+            android:id="@+id/ButMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Acces Maps" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
